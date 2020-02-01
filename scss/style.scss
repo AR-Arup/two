@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #ff0000;
+}
+
+h3 {
+    text-align: center;
+}
+
+.color {
+    color: #ff4757;
+}
+
+.background-color {
+    width: 100%;
+    height: 100px;
+    background-color: #5352ed;
+}
+
+.background-img {
+    height: 200px;
+    width: 100%;
+    background-image: url('../img/css.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.border {
+    h2 {
+        border-width: 5px;
+        border-style: double solid dashed dotted;
+        border-color: #1e90ff;
+        border-radius: 5px;
+        margin: 50px;
+    }
+}
+
+.margin {
+    text-align: center;
+
+    img {
+        background-position: center;
+        background-size: cover;
+        width: 50%;
+
+    }
+
+}
+
+.max-min-width-height {
+    p {
+        color: #3742fa;
+    }
+
+    background: #2ed573;
+    max-width: 100%;
+    min-height: 200px;
+}
+
+.outline {
+    h3 {
+        margin: 15px;
+        border: 5px dotted #5352ed;
+        outline-width: 5px;
+        outline-style: solid;
+        outline-color: #ffa502;
+        outline-offset: 10px;
+    }
+}
+
+.text-customization {
+    .underline {
+        text-decoration: underline;
+    }
+    .line-through{
+        text-decoration: line-through;
+    }
+    .overline{
+        text-decoration: overline;
+    }
+    .uppercase {
+        text-transform: uppercase;
+    }
+    .lowercase {
+        text-transform: lowercase;
+    }
+    .captalize {
+        text-transform: capitalize;
+    }
+    .justify-text-indent {
+        font-size: 19px;
+        text-align: justify;
+        text-indent: 100px;
+        letter-spacing: 3px;
+        word-spacing: 10px;
+        line-height: 30px;
+    }
+    .text-shadow {
+        font-size: 35px;
+        text-shadow: 3px 3px 5px #2ecc71;
+        color: #e74c3c;
+    }
+}
+
+.fonts {
+    p {
+      font-family: 'Zhi Mang Xing', cursive;
+      font-size: 30px;
+      letter-spacing: 2px;
+      line-height: 2;
+      font-weight: 400;
+      color: #8e44ad;
+    }
+}
+.icons {
+    text-align: center;
+    .mi {
+        font-size: 40px;
+        margin: 0 15px;
+        color: #e74c3c;
+    }
+}
+
+nav.sticky{
+    top: 0;
+    position: sticky;
+    background: red;
+    ul {
+        text-align: center;
+        padding: 15px 0;
+       
+        li {
+            
+            padding: 0 10px;
+            display: inline-block;
+            a {
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+                letter-spacing: 1px;
+                color:  #fff;
+            }
+        }
+    }
+}
+
+.scroll {
+
+.cf {
+        font-size: 18px;
+        width: 400px;
+        height: 300px;
+        border: 2px solid red;
+        overflow: scroll;
+    }
+}
+.box1 {
+    width: 33.33%;
+    height: 100px;
+    background: #78e08f;
+    float: left;
+    overflow: hidden;
+}
+.box2 {
+    width: 33.33%;
+    height: 100px;
+    background: #4a69bd;
+    float: left;
+    overflow: hidden;
+}
+
+.box3 {
+    width: 33.33%;
+    height: 100px;
+    background: #fa983a;
+    overflow: hidden;
+}
+
+.pseudu{
+    text-align: center;
+    a:link {
+        font-size: 40px;
+        text-decoration: none;
+    }
+    a:hover {
+        color: green;
+    }
+}
+
+.element {
+    h3::before {
+        content: '-----';
+    }
+    h3::after {
+        content: '-----';
+    }
+}
+
+.opacity  {
+    text-align: center;
+   img {
+    opacity: .5;
+   }
+}
+
+.linear {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-image: linear-gradient(200deg, rgba(234, 32, 39,0.4), rgba(6, 82, 221,0.5), #006266);
+    box-shadow: 2px 2px 20px rgba(238, 90, 36,1.0);
+}
+
+.transform {
+    text-align: center;
+        img {
+            transition: 1s;
+            &:hover {
+                transform: rotate(360deg);
+            }
+        }
+    }
